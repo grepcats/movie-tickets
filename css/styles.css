@@ -3,10 +3,13 @@
 }
 
 #current-balance {
-  border: 1px solid grey;
+  border: 1px dashed green;
   width: 150px;
-  height: 25px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1.25em;
 }
+
 
 .initial,
 .existing {
@@ -30,6 +33,8 @@
   border-top-right-radius: none;
   border-bottom-right-radius: none;
 }
+
+
 
 .btn {
   margin-top: 20px;
